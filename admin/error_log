@@ -1,0 +1,685 @@
+[13-May-2020 15:12:57 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 24
+[13-May-2020 15:12:57 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 25
+[13-May-2020 15:12:57 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 26
+[13-May-2020 15:12:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment1/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment1/view/admin/login.view.php(23): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment1/admin/login.php(20): require('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 30
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment1/admin/config.php on line 10
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment1/admin/config.php on line 11
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 3
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 4
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 6
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 7
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 8
+[13-May-2020 15:13:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment1/admin/config.php:10) in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 8
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment1/admin/config.php on line 10
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment1/admin/config.php on line 11
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 3
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 4
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 6
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 7
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 8
+[13-May-2020 15:14:23 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment1/admin/config.php:10) in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 8
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment1/admin/config.php on line 10
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment1/admin/config.php on line 11
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 3
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 4
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 6
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 7
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment1/admin/adminpanel.php on line 8
+[13-May-2020 15:17:43 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment1/admin/config.php:10) in /home3/manaitir/public_html/appoiment1/admin/lib/functions.php on line 8
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 3
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 4
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 15:19:39 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/config.php:10) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 3
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 4
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:27:22 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/config.php:10) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 3
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 4
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:27:25 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/config.php:10) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 3
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, null given in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 4
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:28:07 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/config.php:10) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:30:12 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:30:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', NULL)
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:34:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:34:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', NULL)
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/config.php on line 10
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/config.php on line 11
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'manaitir_admin'@'localhost' to database 'manaitir_appoiment1' in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 6
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 7
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 8
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:35:35 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:35:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', NULL)
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:35:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function staylog() in /home3/manaitir/public_html/appoiment/admin/adminpanel.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 11
+[13-May-2020 16:36:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function staylog() in /home3/manaitir/public_html/appoiment/admin/adminpanel.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 11
+[13-May-2020 16:36:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function staylog() in /home3/manaitir/public_html/appoiment/admin/adminpanel.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/adminpanel.php on line 11
+[13-May-2020 16:36:17 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:17 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:17 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:17 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:25 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:25 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:25 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:25 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/drprofile.view.php(28): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/drprofile.php(16): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:27 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:27 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:27 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/availabletimes.view.php(51): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/availabletimes.php(23): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:29 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:29 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:29 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:29 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:32 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:32 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:32 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:32 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/drprofile.view.php(28): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/drprofile.php(16): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:34 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:34 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:34 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adddr.view.php(41): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/adddr.php(38): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:36 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:36 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:36 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patients.view.php(36): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patients.php(13): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:37 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:37 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:37 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(168): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:40 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:40 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:40 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/pfiedit.view.php(45): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/pfiedit.php(24): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:44 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:44 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:44 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:45 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:45 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:45 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patients.view.php(36): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patients.php(13): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:36:47 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:36:47 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:36:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:36:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(168): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:37:28 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:37:28 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:37:28 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:37:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:43:04 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:43:04 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:43:04 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:43:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:43:10 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:43:10 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:43:10 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:43:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:48:22 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:48:22 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:48:22 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:48:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:49:16 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:49:16 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:49:16 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:49:16 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:49:20 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:49:20 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:49:20 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:49:20 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:50:03 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:50:03 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:50:03 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:50:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:50:32 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:50:32 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:50:32 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:50:32 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:50:38 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:50:38 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:50:38 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:50:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:50:56 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:50:56 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:50:56 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:50:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:15 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:15 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:15 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:23 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:23 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:23 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/addpatients.view.php(41): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/addpatients.php(40): staylog('../view/admin/a...', 'admin', 's')
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:26 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:26 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:26 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patients.view.php(36): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patients.php(13): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:28 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:28 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:28 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:52 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:52 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:52 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(21): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:51:56 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:51:56 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:51:56 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:51:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(20): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:53:08 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:53:08 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:53:08 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:53:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/addpatients.view.php(41): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/addpatients.php(40): staylog('../view/admin/a...', 'admin', 's')
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:53:12 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:53:12 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:53:12 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:53:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patients.view.php(36): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patients.php(13): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:53:14 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:53:14 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:53:14 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:53:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(168): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:54:33 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:54:33 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:54:33 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:54:33 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(171): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:56:49 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:56:49 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:56:49 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:56:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(172): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:57:11 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:57:11 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:57:11 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:57:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(172): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:58:15 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:58:15 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:58:15 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:58:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/pfiedit.view.php(45): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/pfiedit.php(24): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:58:18 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:58:18 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:58:18 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:58:18 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(172): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 16:59:19 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 16:59:19 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 16:59:19 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 16:59:19 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(170): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:00:38 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:00:38 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:00:38 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:00:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(170): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:00:58 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:00:58 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:00:58 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:00:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php(168): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:42 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:42 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:42 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/adminpanel.view.php(18): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/lib/functions.php(6): require_once('/home3/manaitir...')
+#3 /home3/manaitir/public_html/appoiment/admin/adminpanel.php(11): staylog('../view/admin/a...', 'admin', Object(mysqli_result))
+#4 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:43 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:43 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:43 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/drprofile.view.php(28): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/drprofile.php(16): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:44 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:44 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:44 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/availabletimes.view.php(51): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/availabletimes.php(23): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:46 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:46 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:46 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/drprofile.view.php(28): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/drprofile.php(16): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:47 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:47 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/admin/avtimesshow.php(9): ChekForPastTime()
+#1 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:01:49 Asia/Tehran] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 24
+[13-May-2020 17:01:49 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 25
+[13-May-2020 17:01:49 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 26
+[13-May-2020 17:01:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home3/manaitir/public_html/appoiment/admin/lib/functions.php:30
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/view/admin/section/footer.php(19): ChekForPastTime()
+#1 /home3/manaitir/public_html/appoiment/view/admin/drprofile.view.php(28): require_once('/home3/manaitir...')
+#2 /home3/manaitir/public_html/appoiment/admin/drprofile.php(16): require_once('/home3/manaitir...')
+#3 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 30
+[13-May-2020 17:07:47 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php:11) in /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php on line 13
+[13-May-2020 17:11:31 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php:11) in /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php on line 13
+[13-May-2020 17:11:51 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php:11) in /home3/manaitir/public_html/appoiment/admin/avtimesdlt.php on line 13
+[13-May-2020 17:13:44 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/dltdr.php:10) in /home3/manaitir/public_html/appoiment/admin/dltdr.php on line 12
+[13-May-2020 17:55:49 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:32) in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 33
+[13-May-2020 18:03:41 Asia/Tehran] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 3
+[13-May-2020 18:03:41 Asia/Tehran] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 40
+[13-May-2020 18:03:41 Asia/Tehran] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 41
+[13-May-2020 18:03:52 Asia/Tehran] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 3
+[13-May-2020 18:03:52 Asia/Tehran] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 8
+[13-May-2020 18:03:52 Asia/Tehran] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 40
+[13-May-2020 18:03:52 Asia/Tehran] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 41
+[13-May-2020 18:03:55 Asia/Tehran] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 3
+[13-May-2020 18:03:55 Asia/Tehran] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 40
+[13-May-2020 18:03:55 Asia/Tehran] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 41
+[13-May-2020 18:04:01 Asia/Tehran] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 3
+[13-May-2020 18:04:01 Asia/Tehran] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 40
+[13-May-2020 18:04:01 Asia/Tehran] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/manaitir/public_html/appoiment/admin/Sinfophotos.php on line 41
+[13-May-2020 18:07:42 Asia/Tehran] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home3/manaitir/public_html/appoiment/admin/avtadd.php on line 33
+[13-May-2020 18:28:17 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/dtpat.php:11) in /home3/manaitir/public_html/appoiment/admin/dtpat.php on line 13
+[15-May-2020 02:33:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:33:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:33:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:36:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:36:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:36:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:36:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:38:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:39:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:13
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 13
+[15-May-2020 02:39:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php:74
+Stack trace:
+#0 /home3/manaitir/public_html/appoiment/admin/patientsprofile.php(42): require_once()
+#1 {main}
+  thrown in /home3/manaitir/public_html/appoiment/view/admin/patientsprofile.view.php on line 74
+[15-May-2020 02:39:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:43:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:44:31 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:47:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 02:55:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 03:36:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 03:36:18 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/manaitir/public_html/appoiment/admin/patientsprofile.php on line 11
+[15-May-2020 14:09:06 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/addpatients.php:12) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8
+[15-May-2020 14:10:05 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/manaitir/public_html/appoiment/admin/addpatients.php:21) in /home3/manaitir/public_html/appoiment/admin/lib/functions.php on line 8

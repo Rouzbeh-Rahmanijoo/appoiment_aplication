@@ -1,0 +1,6 @@
+body{
+    direction: rtl !important;
+}
+#label{
+    margin-left: 100px;
+}
